@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>gnss_comm</name>
+  <version>1.0.0</version>
+  <description>Definitions and utility functions for GNSS</description>
+
+  <maintainer email="shaozu.cao@gmail.com">CAO Shaozu</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rosidl_default_generators</depend>
+  <depend>std_msgs</depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
